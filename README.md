@@ -30,3 +30,16 @@ Examples:
 
 - [Example 02: pull request with a merge commit](https://github.com/josecelano-test/git-commit-signature/issues/2)
 - [Example 03: pull request with "rebase and merge"](https://github.com/josecelano-test/git-commit-signature/issues/4)
+
+### Batch 03
+
+Requirements:
+
+- Committer and author are not the same.
+- GPG key identity (user and email) is the same as the committer.
+- No pull request. Push directly to the `main` branch.
+- Author is: `Jose Celano <bot@josecelano.com>`.
+
+Examples:
+
+- [Example 04: committer and author are not the same](https://github.com/josecelano-test/git-commit-signature/issues/6)
